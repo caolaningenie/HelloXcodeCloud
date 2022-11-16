@@ -14,6 +14,7 @@
 		7BAACE582924F0B90045EC08 /* HelloXcodeCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAACE572924F0B90045EC08 /* HelloXcodeCloudTests.swift */; };
 		7BAACE622924F0B90045EC08 /* HelloXcodeCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAACE612924F0B90045EC08 /* HelloXcodeCloudUITests.swift */; };
 		7BAACE642924F0B90045EC08 /* HelloXcodeCloudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAACE632924F0B90045EC08 /* HelloXcodeCloudUITestsLaunchTests.swift */; };
+		7BAACE732924FFD50045EC08 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAACE722924FFD50045EC08 /* ContentViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7BAACE5D2924F0B90045EC08 /* HelloXcodeCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloXcodeCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAACE612924F0B90045EC08 /* HelloXcodeCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloXcodeCloudUITests.swift; sourceTree = "<group>"; };
 		7BAACE632924F0B90045EC08 /* HelloXcodeCloudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloXcodeCloudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BAACE722924FFD50045EC08 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				7BAACE482924F0B70045EC08 /* ContentView.swift */,
 				7BAACE4A2924F0B90045EC08 /* Assets.xcassets */,
 				7BAACE4C2924F0B90045EC08 /* Preview Content */,
+				7BAACE722924FFD50045EC08 /* ContentViewViewModel.swift */,
 			);
 			path = HelloXcodeCloud;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				7BAACE492924F0B70045EC08 /* ContentView.swift in Sources */,
 				7BAACE472924F0B70045EC08 /* HelloXcodeCloudApp.swift in Sources */,
+				7BAACE732924FFD50045EC08 /* ContentViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

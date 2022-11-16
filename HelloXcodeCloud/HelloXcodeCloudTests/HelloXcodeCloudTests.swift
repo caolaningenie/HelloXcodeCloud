@@ -33,4 +33,22 @@ final class HelloXcodeCloudTests: XCTestCase {
         }
     }
 
+    func testIfTodayIsEven() {
+        // Arrange
+        
+        let contentViewViewModel = ContentViewViewModel()
+        var dateComponents = DateComponents()
+        dateComponents.day = 2
+        dateComponents.month = 1
+        dateComponents.year = 1970
+        let evenDate = Calendar.current.date(from: dateComponents)!
+        
+        // Act
+        
+        let result = contentViewViewModel.isDayEven(date: evenDate)
+        
+        // Assert
+        
+        XCTAssertEqual(result, true, "Date must be even, no remainder should remain.")
+    }
 }
